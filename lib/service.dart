@@ -5,8 +5,8 @@ class ServicePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: const Color.fromRGBO(
-            15, 15, 15, 1.0), // Cor de fundo RGB (15, 15, 15)
+        color: const Color.fromARGB(
+            254, 15, 15, 15), // Cor de fundo RGB (15, 15, 15)
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
