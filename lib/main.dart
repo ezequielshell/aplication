@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:aplication/home.dart';
 import 'package:flutter/material.dart';
 
@@ -43,7 +45,6 @@ class HomeScreen extends StatelessWidget {
                         alignment: Alignment.centerLeft,
                       ),
                     ),
-                    //const SizedBox(width: 10),
                     const Text(
                       "   Hello, Max!",
                       style: TextStyle(
@@ -51,7 +52,6 @@ class HomeScreen extends StatelessWidget {
                         fontSize: 20,
                       ),
                     ),
-
                     const Spacer(),
                     const Icon(
                       Icons.notifications,
@@ -61,10 +61,9 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              // Título
+
               Container(
                 padding: const EdgeInsets.all(16.0),
-                // Fundo escuro
                 child: const Text(
                   "Home",
                   style: TextStyle(
@@ -87,7 +86,7 @@ class HomeScreen extends StatelessWidget {
                           top: 20.0, bottom: 52, left: 20),
                       decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15)),
-                        color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                        color: Color.fromRGBO(31, 29, 32, 1),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -130,7 +129,7 @@ class HomeScreen extends StatelessWidget {
                           top: 20.0, bottom: 52, left: 20),
                       decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15)),
-                        color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                        color: Color.fromRGBO(31, 29, 32, 1),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -177,7 +176,7 @@ class HomeScreen extends StatelessWidget {
                           top: 20.0, bottom: 52, left: 20),
                       decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15)),
-                        color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                        color: Color.fromRGBO(31, 29, 32, 1),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -220,7 +219,7 @@ class HomeScreen extends StatelessWidget {
                           top: 20.0, bottom: 52, left: 20),
                       decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15)),
-                        color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                        color: Color.fromRGBO(31, 29, 32, 1),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,

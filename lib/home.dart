@@ -13,7 +13,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int selectedItem = 0;
 
-  static List<Widget> _widgetOptions = <Widget>[
+  static final List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     ServicePage(),
     LoginApp(),
@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
         fixedColor: const Color.fromRGBO(126, 150, 225, 1),
         unselectedItemColor: const Color.fromRGBO(116, 115, 121, 1),
         currentIndex: selectedItem,
-        items: [
+        items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(
               icon: Icon(Icons.grid_view_rounded), label: "Services"),

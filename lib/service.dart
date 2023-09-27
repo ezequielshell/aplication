@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 
 class ServicePage extends StatelessWidget {
@@ -11,20 +13,18 @@ class ServicePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
-              margin: const EdgeInsets.only(
-                  top: 40.0), // Margem apenas na parte superior
+              margin: const EdgeInsets.only(top: 40.0),
               child: const Text(
                 'Add devices',
                 style: TextStyle(
-                  fontSize: 20.0, // Tamanho da fonte
-                  fontWeight: FontWeight.bold, // Texto em negrito
-                  color: Colors.white, // Cor do texto
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
               ),
             ),
             const SizedBox(height: 20.0), // Espaço entre o título e as seções
 
-            // Dividindo as seções em duas linhas
             Row(
               children: [
                 // Primeira seção
@@ -37,18 +37,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.lightbulb,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Smart home",
                           style: TextStyle(
@@ -70,18 +68,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.tv,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Smart TV",
                           style: TextStyle(
@@ -107,18 +103,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.video_camera_back_rounded,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Projector",
                           style: TextStyle(
@@ -140,18 +134,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.camera,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Camera",
                           style: TextStyle(
@@ -177,18 +169,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.kitchen,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Fridge",
                           style: TextStyle(
@@ -210,18 +200,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.speaker,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Speaker",
                           style: TextStyle(
@@ -247,18 +235,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.air,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "AC",
                           style: TextStyle(
@@ -280,18 +266,16 @@ class ServicePage extends StatelessWidget {
                         top: 10, left: 5, right: 5, bottom: 10),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15)),
-                      color: Color.fromRGBO(31, 29, 32, 1), // Fundo escuro
+                      color: Color.fromRGBO(31, 29, 32, 1),
                     ),
                     child: const Row(
-                      // Usar um Row para alinhar o ícone e o texto horizontalmente
-                      mainAxisAlignment:
-                          MainAxisAlignment.center, // Alinhar ambos ao centro
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.radio,
                           color: Color.fromRGBO(126, 150, 225, 1),
                         ),
-                        SizedBox(width: 10), // Espaço entre o ícone e o texto
+                        SizedBox(width: 10),
                         Text(
                           "Radio",
                           style: TextStyle(

@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,8 +20,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:
-          const Color.fromARGB(254, 15, 15, 15), // Cor RGB(15, 15, 15)
+      backgroundColor: const Color.fromARGB(254, 15, 15, 15),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -29,7 +30,7 @@ class LoginPage extends StatelessWidget {
               style: TextStyle(
                 fontSize: 36.0,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF7E96E1), // Cor RGB(126, 150, 225)
+                color: Color(0xFF7E96E1),
               ),
             ),
             const SizedBox(height: 20.0),
@@ -43,12 +44,12 @@ class LoginPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10.0),
                     borderSide: const BorderSide(
                       width: 10,
-                      color: Color(0xFF7E96E1), // Cor RGB(126, 150, 225)
+                      color: Color(0xFF7E96E1),
                     ),
                   ),
                   hintText: 'Email',
                   hintStyle: const TextStyle(
-                    color: Color(0xFF7E96E1), // Cor RGB(126, 150, 225)
+                    color: Color(0xFF7E96E1),
                   ),
                 ),
               ),
@@ -64,23 +65,21 @@ class LoginPage extends StatelessWidget {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.0),
                     borderSide: const BorderSide(
-                      color: Color(0xFF7E96E1), // Cor RGB(126, 150, 225)
+                      color: Color(0xFF7E96E1),
                     ),
                   ),
                   hintText: 'Senha',
                   hintStyle: const TextStyle(
-                    color: Color(0xFF7E96E1), // Cor RGB(126, 150, 225)
+                    color: Color(0xFF7E96E1),
                   ),
                 ),
               ),
             ),
             const SizedBox(height: 20.0),
             ElevatedButton(
-              onPressed: () {
-                // Coloque aqui a lógica para o botão de login
-              },
+              onPressed: () {},
               style: ElevatedButton.styleFrom(
-                primary: const Color(0xFF7E96E1), // Cor RGB(126, 150, 225)
+                backgroundColor: const Color(0xFF7E96E1),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
